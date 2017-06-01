@@ -10,7 +10,8 @@ import Paper from 'material-ui/Paper';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
 import FlatButton from 'material-ui/FlatButton';
-import Blog from './Blog.js'
+import Blog from './Blog.js';
+import logo from './images/hackcville.png'
 
 class Pageselect extends React.Component {
   constructor(props) {
@@ -40,13 +41,14 @@ class Pageselect extends React.Component {
          <AppBar  style={{
       width: '100%',
       margin: '0 auto',
-      backgroundColor: "lightblue",
+      backgroundColor: "black",
       textAlign: "right",
       textColor: "white",
     }}
        title= {<div>
       <Link to="Blog"><FlatButton style = {{color: "white"}}label ="Blog"  /></Link>
       </div>}
+      iconElementLeft= {<Link to="/"><img src ={logo} alt = '' className = 'logo_img'/></Link>}
   />
   </div>
         </MuiThemeProvider>
