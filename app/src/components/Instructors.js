@@ -23,7 +23,7 @@ class Instructors extends Component {
         </div>
       </div>
       <div className="mike">
-        <img className="img-circle" src={jack}></img>
+        <img className="img-circle" src={mike}></img>
         <div className="mikeDescription">
           <h1>Mike Ross</h1>
           <p>Mike Ross, a Georgia Tech graduate, is a Solutions Architect for WillowTree, Inc. 
@@ -39,7 +39,7 @@ class Instructors extends Component {
           </p>
         </div>
       <div className="jack">
-        <img className="img-circle" src={mike}></img>
+        <img className="img-circle" src={jack}></img>
         <div className="jackDescription">
           <h1>Jack Ross</h1>
           <p>

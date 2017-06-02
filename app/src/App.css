@@ -109,6 +109,31 @@ font-size: 20px;
 .img-circle {
     border-radius: 50%;
     height: 300px;
-    display: block;
-    padding: 50px;
+    margin: 0;
+    padding: 25px;
+    
 }
+.brentDescription, .mikeDescription, .jackDescription{
+  background-color: #3287C8;
+ color: white;
+ padding: none;
+}
+.brentDescription p, .mikeDescription p, .jackDescription p{
+  background-color: #333;
+ color: white;
+ padding: none;
+}
+
+
+.brent, .mike, .jack{
+  background-color: white;
+  display: block;
+  padding: 0;
+}
+.mike{
+  display: block;
+}
+.Instructors{
+  background-color: white;
+}
+
