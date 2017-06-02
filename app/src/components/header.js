@@ -16,6 +16,7 @@ import PhotoCarousel from './photoCarousel.js';
 import Instructors from './Instructors.js';
 import Motivation from './Motivation.js';
 import Students from './Students.js';
+import Authenticating from './Authenticating.js';
 class Pageselect extends React.Component {
   constructor(props) {
     super(props);
@@ -59,7 +60,7 @@ class Pageselect extends React.Component {
 
   </div>
         </MuiThemeProvider>
-      <Route exact path="/Blog" component={Blog}/> 
+      <Route exact path="/Blog" component={Authenticating}/> 
       <Route exact path="/" component={PhotoCarousel}/> 
       <Route exact path="/Instructors" component={Instructors}/> 
       <Route exact path="/Students" component={Students}/> 

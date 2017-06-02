@@ -103,3 +103,12 @@ button {
     line-height: 1em;
 font-size: 20px;
 }
+.authenticator{
+  padding-bottom:250px
+}
+.img-circle {
+    border-radius: 50%;
+    height: 300px;
+    display: block;
+    padding: 50px;
+}
