@@ -89,3 +89,17 @@ button {
   display: block;
   float: left;
 }
+.App-intro {
+  height: 200px;
+  font-size: 6em;
+  display: block;
+  color: #2C85D1;
+}
+
+.subscript{
+  font-weight: normal;
+    color: gray;
+    font-family: 'Roboto Condensed';
+    line-height: 1em;
+font-size: 20px;
+}
